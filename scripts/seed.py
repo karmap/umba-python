@@ -3,8 +3,7 @@ import requests
 import json
 import argparse
 
-
-DATABASE_NAME = 'data.db'
+DATABASE_NAME = 'github_users.db'
 TABLE_NAME = 'users'
 
 def create_table():
